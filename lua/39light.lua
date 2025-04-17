@@ -180,6 +180,7 @@ function M.load()
         shl("@markup.heading.4.markdown", { fg = colors.blue3, bold = true })
         shl("@markup.heading.5.markdown", { fg = colors.blue3, bold = true })
         shl("@markup.heading.6.markdown", { fg = colors.blue3, bold = true })
+        shl("@markup.strong.markdown_inline", { fg = colors.blue2, bold = true })
 
         shl("@comment", { link = "Comment" })
         shl("@number", { link = "Number" })
