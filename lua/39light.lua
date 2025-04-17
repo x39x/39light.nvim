@@ -40,6 +40,7 @@ local colors = {
         blue1 = "#0137A6",
         blue2 = "#0133B3",
         blue3 = "#264eff",
+        blue7 = "#174be6",
         blue4 = "#1750EB",
         blue5 = "#0A69DA",
         blue6 = "#A6D2FF",
@@ -62,7 +63,6 @@ local colors = {
         --
         -- ___keyword = "#3333bb",
         -- _attribute = "#174ad4",
-        -- ____entity = "#174be6",
         -- _reference = "#336ecc",
         -- regexpPaeter="#297bde",
         -- globalVariable = "#830091",
@@ -132,7 +132,7 @@ function M.load()
         shl("Number", { fg = colors.blue4 })
         shl("PreProc", { fg = colors.blue3 })
         shl("Type", { fg = colors.blue0 })
-        shl("Statement", { bg = colors.fg0 })
+        shl("Statement", { bg = colors.blue7 })
         shl("Identifier", { fg = colors.fg0 })
         shl("Special", { fg = colors.fg0 })
         shl("Constant", { fg = colors.blue2 })
