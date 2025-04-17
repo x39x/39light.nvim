@@ -174,12 +174,12 @@ function M.load()
         shl("diffChanged", { fg = colors.brown1 })
 
         --PLUG: Treesitter highlights
-        shl("@markup.heading.1.markdown", { fg = colors.blue3, bold = true })
-        shl("@markup.heading.2.markdown", { fg = colors.purple0, bold = true })
-        shl("@markup.heading.3.markdown", { fg = colors.purple0, bold = true })
-        shl("@markup.heading.4.markdown", { fg = colors.purple0, bold = true })
-        shl("@markup.heading.5.markdown", { fg = colors.purple0, bold = true })
-        shl("@markup.heading.6.markdown", { fg = colors.purple0, bold = true })
+        shl("@markup.heading.1.markdown", { fg = colors.purple0, bold = true })
+        shl("@markup.heading.2.markdown", { fg = colors.blue3, bold = true })
+        shl("@markup.heading.3.markdown", { fg = colors.blue3, bold = true })
+        shl("@markup.heading.4.markdown", { fg = colors.blue3, bold = true })
+        shl("@markup.heading.5.markdown", { fg = colors.blue3, bold = true })
+        shl("@markup.heading.6.markdown", { fg = colors.blue3, bold = true })
 
         shl("@comment", { link = "Comment" })
         shl("@number", { link = "Number" })
