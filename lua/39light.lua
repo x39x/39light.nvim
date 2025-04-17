@@ -29,7 +29,7 @@ local colors = {
         green3 = "#BEE6BE",
         green4 = "#E9F5E6",
 
-        red0 = "#FF0000",
+        red0 = "#f50000",
         red1 = "#DC2626",
         red2 = "#CE0606",
         red3 = "#D3353F",
@@ -56,7 +56,6 @@ local colors = {
         yellow3 = "#FEE6B1",
         yellow4 = "#F7E6A0",
 
-        -- unknow
         -- ___package = "#805900",
         -- ___keywrd4 = "#800000",
         -- ___variabl = "#7f0000",
@@ -69,14 +68,15 @@ local colors = {
         -- _static_method = "#662277",
         -- keywrdAtributs = "#74118c",
         -- clasPAtributes = "#851691",
+        --
+        -- cent_tag_value = "#3d3d3d",
+        -- _xt_attributes = "#414d41",
+        --
         -- _function_call = "#36666b",
         -- local_function = "#286d73",
+        -- go_methoceiver = "#88aa99",
         -- local_variable = "#248f8f",
-        -- comment_tag_value = "#3d3d3d",
-        -- go_methodReceiver = "#88aa99",
-        -- ____folded_text_attributes = "#414d41",
-        -- default_valid_string_escape = "#3377aa",
-        -- wrong_references_attributes = "#f50000",
+        -- [efring_escape = "#3377aa",
 }
 
 function M.load()
@@ -132,7 +132,7 @@ function M.load()
         shl("Number", { fg = colors.blue4 })
         shl("PreProc", { fg = colors.blue3 })
         shl("Type", { fg = colors.blue0 })
-        shl("Statement", { bg = colors.blue7 })
+        shl("Statement", { fg = colors.blue7 })
         shl("Identifier", { fg = colors.fg0 })
         shl("Special", { fg = colors.fg0 })
         shl("Constant", { fg = colors.blue2 })
@@ -157,7 +157,7 @@ function M.load()
         -- shl("Typedef",        { fg = colors.accent })
         -- shl("SpecialComment", { fg = colors.comment, italic = true })
 
-        shl("DiagnosticError", { fg = colors.red0 })
+        shl("DiagnosticError", { fg = colors.red1 })
         shl("DiagnosticWarn", { fg = colors.orange })
         shl("DiagnosticInfo", { fg = colors.blue5 })
         shl("DiagnosticHint", { fg = colors.green0 })
