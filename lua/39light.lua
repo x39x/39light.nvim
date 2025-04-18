@@ -47,6 +47,7 @@ local colors = {
 
         orange = "#b86114",
 
+        brown2 = "#805900", --___package
         brown0 = "#9E880D",
         brown1 = "#B28B00",
 
@@ -56,7 +57,6 @@ local colors = {
         yellow3 = "#FEE6B1",
         yellow4 = "#F7E6A0",
 
-        -- ___package = "#805900",
         -- ___keywrd4 = "#800000",
         -- ___variabl = "#7f0000",
         --
@@ -126,7 +126,8 @@ function M.load()
         shl("Underlined", { underline = true })
         shl("Operator", { fg = colors.fg0 })
         shl("Comment", { fg = colors.fg2, italic = false })
-        shl("Function", { fg = colors.cyan0 })
+        -- shl("Function", { fg = colors.cyan0 })
+        shl("Function", { fg = colors.brown2 })
         shl("Keyword", { fg = colors.blue2 })
         shl("String", { fg = colors.green2 })
         shl("Number", { fg = colors.blue4 })
