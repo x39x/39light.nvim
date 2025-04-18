@@ -57,6 +57,7 @@ local colors = {
         yellow3 = "#FEE6B1",
         yellow4 = "#F7E6A0",
 
+        -- red        = "#F40A3F"
         -- ___keywrd4 = "#800000",
         -- ___variabl = "#7f0000",
         --
@@ -74,9 +75,9 @@ local colors = {
         --
         -- _function_call = "#36666b",
         -- local_function = "#286d73",
-        -- go_methoceiver = "#88aa99",
-        -- local_variable = "#248f8f",
         -- [efring_escape = "#3377aa",
+        -- local_variable = "#248f8f",
+        -- go_methoceiver = "#88aa99",
 }
 
 function M.load()
